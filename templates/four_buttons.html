@@ -1,0 +1,21 @@
+ <html>
+    <head>
+        <title>LOGGED IN</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>CHOOSE</h1>
+            </div>
+
+            <div id="content">
+                 <form action="{{ url_for('token_display') }}">
+                  <input type="submit" value="Token Details">  </input>
+                 </form>
+            </div>
+            
+            </div>
+        </div>
+    </body>
+</html>
